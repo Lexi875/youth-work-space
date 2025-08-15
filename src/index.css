@@ -118,5 +118,16 @@
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer utilities {
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+  
+  .glass-effect {
+    @apply bg-white/70 backdrop-blur-sm border border-white/20;
   }
 }

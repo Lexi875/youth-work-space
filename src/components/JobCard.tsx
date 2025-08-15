@@ -55,7 +55,11 @@ export const JobCard = ({ job }: JobCardProps) => {
       </CardContent>
       
       <CardFooter>
-        <Button className="w-full" variant="outline">
+        <Button 
+          className="w-full hover-scale" 
+          variant="outline"
+          onClick={() => window.location.href = '/signup'}
+        >
           Apply Now
         </Button>
       </CardFooter>
