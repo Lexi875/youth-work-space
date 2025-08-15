@@ -9,10 +9,10 @@ export const SearchSection = () => {
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            Find Your First Job
+            Find Your First Job in Bromborough
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover local opportunities perfect for students and young professionals aged 14-18
+            Discover local opportunities in Bromborough and surrounding areas, perfect for students and young professionals aged 14-18
           </p>
         </div>
         
@@ -29,8 +29,9 @@ export const SearchSection = () => {
             <div className="relative">
               <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
               <Input 
-                placeholder="City or zip code" 
+                placeholder="City, town or postcode" 
                 className="pl-10 h-12 border-border/50 focus:ring-primary"
+                defaultValue="Bromborough"
               />
             </div>
             

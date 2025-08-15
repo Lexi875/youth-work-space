@@ -1,7 +1,7 @@
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { MapPin, Clock, DollarSign } from "lucide-react";
+import { MapPin, Clock, Banknote } from "lucide-react";
 
 export interface Job {
   id: string;
@@ -41,7 +41,7 @@ export const JobCard = ({ job }: JobCardProps) => {
             <span>{job.location}</span>
           </div>
           <div className="flex items-center gap-1">
-            <DollarSign className="h-4 w-4" />
+            <Banknote className="h-4 w-4" />
             <span>{job.salary}</span>
           </div>
         </div>
